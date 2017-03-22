@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	     
+	      .box1{
+	      	width: 100px;
+	      	height: 100px;
+	      	background-color: #fff;
+	      	border: 1px solid red;
+	      	margin:100px auto;
+	      	transition:transform 5s;
+	      	transform-origin:left top;
+	      }
+	      .box2{
+	      	width: 100px;
+	      	height: 100px;
+	      	background-color: #fff;
+	      	border:1px solid red;
+	      	margin:100px auto;
+	      	transition:transform 5s;
+	      	transform-origin:left top;
+	      }
+	      .box1 .box2 :hover{
+	      	transform:rotate (90deg);
+
+	      }
+
+
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<h1>盒子一</h1>
+	</div>
+	<div class="box2">
+		<h1>盒子二</h1>
+	</div>
+</body>
+</html>

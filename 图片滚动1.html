@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	    *{
+	    	margin:0;
+	    	padding: 0;
+	    }
+	    .box img{
+	    	width: 140px;
+	    }
+	    .box ul{
+	    	width: 650px;
+	    	height: 100px;
+	    	border:1px solid red;
+	    	    	
+	    }
+	    .box li{
+	    	width: 1500px;
+	    	height: 90px;
+	    	animation:turn 10s linear infinite;	
+
+	    }
+	    .box{
+			height: 100px;
+			border:1px solid red;
+			width: 500px;
+			margin:100px auto;
+			overflow: hidden;
+	    }
+
+	    @keyframes turn{
+	    	from{
+	    		transform:translateX(0);
+
+	    	}
+	    	to{
+	    		transform:translateX(-650px);
+
+	    	}
+	    }
+
+	</style>
+</head>
+<body>
+   <div class="box">
+   	<ul>
+   		<li>
+   			<img src="1.jpg" alt="">
+   			<img src="2.jpg" alt="">
+   			<img src="3.jpg" alt="">
+   			<img src="4.jpg" alt="">
+   			<img src="5.jpg" alt="">
+   			<img src="1.jpg" alt="">
+   			<img src="2.jpg" alt="">
+   			<img src="3.jpg" alt="">
+   			<img src="4.jpg" alt="">
+   			<img src="5.jpg" alt="">
+   		</li>
+   	</ul>
+   </div>
+	
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	      *{
+	      	margin: 0px;
+	      	padding: 0px;
+	      }
+	      .clear .befor .after {
+	      	clear: both;
+	      }
+
+	     .header{
+	     	width: 1000px;
+	     	height: 150px;
+	     	background-color: #eee;
+	     	margin: 0 auto;
+	     }
+	     .header .logo{
+	     	float: left;
+
+	     }
+	     .header .search{
+	     	float: right;
+	     }
+	     .clear{
+	     	clear: both;
+	     }
+	     .header .nav li  {
+	        list-style: none;
+	     	float: left;
+	     	width: 80px;
+	     	height: 30px;
+	     	background-color: #fff;
+	     	text-align: center;
+	     	line-height: 30px;
+	     	border:1px solid red;
+	     }
+	     .header .nav a{
+	     	text-decoration: none;
+	     	display: block;
+
+	     }
+	     
+	      .header .nav a:hover{
+			background-color: #00f;
+			color:#fff;
+		}
+		.box ul{
+		width: 400px;
+	    margin: 0 auto;
+
+		}
+		.box li{
+			position: relative;
+			overflow: hidden;
+			width:80px;
+			height:30px;
+		float: left;
+		list-style: none;
+		text-align: center;
+		
+		line-height: 30px;
+		}
+	
+		.box li a{
+			display: block;
+			width: 80px;
+			height: 30px;
+			position: absolute;
+			text-decoration: none;
+			top: 30px;
+			/*transform: translateY(0px);*/
+			transition:transform 2s;
+			background-color: red;
+		}
+		.box li:hover a{
+			transform:translateY(-30px);
+			background-color: blue;
+			opacity: 0.5;
+		}
+	     .banner{
+	     	width: 1000px;
+	     	height: 200px;
+	     	background-color: #0f0;
+	     	margin: 0 auto;
+        }
+	     .banner .c-t-l{
+	     	width: 250px;
+	     	height: 200px;
+	     	background-color:red;
+	     	float: left;
+
+	    }
+	      .banner .c-c-l{
+	     	width: 250px;
+	     	height: 200px;
+	     	background-color:#eee;
+	     	float: left;
+	     
+        }
+          .banner .c-b-l{
+          	width: 250px;
+          	height: 200px;
+          	background-color: #fff;
+          	float: left;
+          }
+	     
+	     .conter{
+	     	width: 1000px;
+	     	height: 1000px;
+	     	background-color: black;
+	     	margin: 0 auto;
+	    }
+	     .fotter{
+	     	width: 1000px;
+	     	height: 400px;
+	     	background-color: #ff0000;
+	    	margin: 0 auto;
+	    }
+
+
+
+	</style>
+</head>
+<body>
+     <div class="header">
+     <ul class="nav">
+     <h1 class="logo">logo</h1>
+      <h1 class="search">search</h1>
+      <div class="clear"></div>
+<div class="box">
+     	<li><a href="">连接</a></li>
+     	<li><a href="">连接</a></li>
+     	<li><a href="">连接</a></li>
+     	<li><a href="">连接</a></li>
+     	</ul>
+</div>
+     </div>
+     <div class="banner">
+	 <div class="container">
+	 <div class="c-t">
+	 	<div class="c-t-l">
+	 		<h3>新闻中心</h3>
+	 		<ul>
+	 			<li>1</li>
+	 			<li>2</li>
+	 			<li>3</li>
+	 			<li>4</li>
+	 			<li>5</li>
+	 			<li>6</li>
+	 		</ul>
+	 	</div>
+	 	</div>
+	 </div>
+	 <div class="c-c">
+	 	<div class="c-c-l">
+	 		<h3>新闻</h3>
+	 			<ul>
+	 				<li>1</li>
+	 				<li>2</li>
+	 				<li>3</li>
+	 				<li>4</li>
+	 				<li>5</li>
+	 				<li>6</li>
+	 			</ul>
+
+	 	</div>
+	 </div>
+	 <div class="c-b">
+	 		<div class="c-b-l">
+	 		<h3>新闻3</h3>
+	 			<ul>
+	 				<li>1</li>
+	 				<li>2</li>
+	 				<li>3</li>
+	 				<li>4</li>
+	 				<li>5</li>
+	 				<li>6</li>
+	 			</ul>
+
+	 	</div>
+	 </div>
+	 <div class="conter"></div>
+	 <div class="fotter"></div>
+</body>
+</html>

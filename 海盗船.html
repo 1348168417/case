@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+     <style>
+     *{
+     	margin:0px;
+     	padding:0px;
+     }
+         body{
+         	background-image: url(bg.png);
+         	background-repeat: no-repeat;
+         }
+         .chuan img{
+         	margin-left: 280px;
+         	animation:turn 3s linear infinite;
+         }
+         @keyframes turn{
+         	0%{
+         		transform:rotate(-5deg);
+         	}
+         	50%{
+         		transform:rotate(5deg);
+         		
+         	}
+         	100%{
+         		transform:rotate(-5deg);
+            
+         		opacity:0;
+
+         	}
+         }
+         .w {
+         	position: relative;
+         	top: 40px;
+         	z-index: 3;
+         	animation:zuo 5s linear infinite;	
+
+         }
+         @keyframes zuo{
+	    	0%{
+	    		transform:translateX(0);
+
+	    	}
+	    	50%{
+	    		transform:translateX(-60px);
+
+	    	}
+	    	100%{
+	    		transform:translateX(0px);
+
+	    	}
+	    }
+         .a {
+         	position: relative;
+         	top: -140px;
+         		z-index: 2;
+         		animation:zuoo 5s linear infinite;
+         }
+         @keyframes zuoo{
+	    	0%{
+	    		transform:translateX(0);
+
+	    	}
+	    	50%{
+	    		transform:translateX(60);
+
+	    	}
+	    	100%{
+	    		transform:translateX(0px);
+
+	    	}
+	    }
+         .v {
+         	position: relative;
+         	top: -310px;
+         		z-index: 1;
+         		animation:zuooo 10s linear infinite;
+         }
+         @keyframes zuooo{
+	    	from{
+	    		transform:translateX(0);
+
+	    	}
+	    	to{
+	    		transform:translateX(-650px);
+
+	    	}
+	    }
+
+
+     </style>
+</head>
+<body>
+    <div class="chuan">
+    	<img src="chuan.png" alt="">
+    </div>
+    <div class="w">
+    	<img src="wave1.png" alt="">
+    </div>
+     <div class="a">
+    	<img src="wave2.png" alt="">
+    </div>
+    <div class="v">
+    	<img src="wave3.png" alt="">
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box1 img{
+			width: 50px;
+			height: 50px;
+			background-color: #f00;
+			margin:100px auto;
+			list-style: none;
+			float: left;
+			animation: turnaround 10s linear 3s infinite;
+		}
+		
+
+		@keyframes turnaround{
+			0%{
+			margin-left: 0px;
+			}
+			
+			100%{
+            margin-left:1000px; 
+			}
+		}
+
+		@keyframes ture{
+			form{
+				width: 100px;
+			}
+			to{
+				width: 500px
+			}
+		}
+
+		.box1:hover{
+			animation-play-state: paused;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+		<li><img src="1.jpg" alt=""></li>
+	</div>
+	<div class="box2"></div>
+	
+</body>
+</html>
